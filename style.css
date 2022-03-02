@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+::selection {
+  color: #333;
+  background: #f1f1f1;
+}
+
+::placeholder {
+  text-align: center;
+}
+:-ms-input-placeholder {
+  text-align: center; /* for IE 10-11 */
+}
+::-webkit-input-placeholder {
+  text-align: center; /* for IE Edge */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa !important;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  max-width: 90%;
+  width: 90%;
+  max-height: 80px;
+  height: 80px;
+}
+.nav .wrapper {
+  background: #fff;
+  max-width: 90%;
+  width: 90%;
+  max-height: 80px;
+  height: 80px;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: left;
+}
+
+.nav .wrapper .content-logo {
+  max-width: 50%;
+  width: 50%;
+  max-height: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: Poppins;
+  color: #333;
+  font-size: 22.5px;
+  font-weight: 500;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.nav .wrapper .content-links {
+  max-width: 50%;
+  width: 50%;
+  max-height: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-family: Poppins;
+  color: #333;
+  font-size: 22.5px;
+  font-weight: 500;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.nav .wrapper .content-links .text {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  /*font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;*/
+  font-family: Poppins;
+  color: #4447ffc2;
+  font-size: 17.5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav .wrapper .content-links .text:hover {
+
+  /*font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;*/
+  color: #383bfc;
+  
+}
+
+.nav .wrapper .content-links button {
+  display: flex;
+  padding: 8.9px 15px;
+  /*background: #383bfc;*/
+  background-color: #4447ffc2;
+  color: #fff;
+  border: 0px;
+  text-decoration: none;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+.nav .wrapper .content-links button:hover {
+  background: #4f52ff;
+}
