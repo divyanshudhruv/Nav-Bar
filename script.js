@@ -9,7 +9,7 @@
         var newx = x - wx / 2;
         var newy = y - wy / 2;
 
-        $("span").text(newx + ", " + newy);
+        $("log").text(newx + ", " + newy);
 
         $(".nav").each(function () {
           var speed = $(this).attr("data-speed");
