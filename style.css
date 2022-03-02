@@ -66,8 +66,13 @@ body {
   font-weight: 500;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  letter-spacing: 0.5px;
 }
-
+.nav .wrapper .content-logo::after {
+  content: "_";
+  position: relative;
+  color: tomato;
+}
 .nav .wrapper .content-links {
   max-width: 50%;
   width: 50%;
@@ -101,10 +106,8 @@ body {
 }
 
 .nav .wrapper .content-links .text:hover {
-
   /*font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;*/
   color: #383bfc;
-  
 }
 
 .nav .wrapper .content-links button {
