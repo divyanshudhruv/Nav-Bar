@@ -72,6 +72,7 @@ body {
   content: "_";
   position: relative;
   color: tomato;
+  left: -3px;
 }
 .nav .wrapper .content-links {
   max-width: 50%;
